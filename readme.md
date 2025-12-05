@@ -50,54 +50,102 @@ Le projet suit une organisation simple et claire pour faciliter la maintenabilit
 
 project/
 │
+
 ├── public/
+
 │ ├── index.php
+
 │ ├── login.php
+
 │ ├── logout.php
+
 │ ├── css/
+
 │ ├── js/
+
 │ └── uploads/
+
 │
+
 ├── admin/
+
 │ ├── dashboard.php
+
 │ ├── articles/
+
 │ │ ├── list.php
+
 │ │ ├── add.php
+
 │ │ ├── edit.php
+
 │ │ └── delete.php
+
 │ ├── categories/
+
 │ │ ├── list.php
+
 │ │ ├── add.php
+
 │ │ ├── edit.php
+
 │ │ └── delete.php
+
 │ └── users/
+
 │ ├── list.php
+
 │ ├── add.php
+
 │ ├── edit.php
+
 │ └── delete.php
+
 │
+
 ├── includes/
+
 │ ├── config.php # Connexion PDO
+
 │ ├── functions.php # Fonctions globales (XSS, redirect, auth…)
+
 │ ├── auth.php # Vérification des rôles
+
 │ ├── header.php
+
 │ └── footer.php
+
 │
+
 ├── controllers/
+
 │ ├── ArticleController.php
+
 │ ├── CategoryController.php
+
 │ ├── UserController.php
+
 │ └── CommentController.php
 │
+
 ├── models/
+
 │ ├── ArticleModel.php
+
 │ ├── CategoryModel.php
+
 │ ├── UserModel.php
+
 │ └── CommentModel.php
+
 │
+
 ├── sql/
+
 │ └── blogcms.sql
+
 │
+
 └── README.md
 
 ---
