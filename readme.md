@@ -105,7 +105,7 @@ project/
 ## Installation
 
 1. Cloner le projet :
-git clone https://github.com/votre-repo/blogcms.git
+git clone https://github.com/salmabelaalia/BlogCMS_Backend.git
 
 
 2. Importer la base de données :
